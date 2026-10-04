@@ -1,1 +1,228 @@
-basic task for beginners
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOmvW0Z2bxrQ4w0JyzOmng2",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Manahilkhan2007/Python-Learner/blob/main/PythonBasic\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Python beginners task"
+      ],
+      "metadata": {
+        "id": "nuAHxFWVFUK5"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Task 1 — Print"
+      ],
+      "metadata": {
+        "id": "XJ81lg7dDrq3"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "se6njmh-DpV4",
+        "outputId": "49d6b722-d122-4eed-cfa1-1500e45c4b47"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My name is Manahhil\n",
+            "I am learning Python\n",
+            "I live in Karachi\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"My name is Manahhil\")\n",
+        "print(\"I am learning Python\")\n",
+        "print(\"I live in Karachi\")"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Task 2 — Addition"
+      ],
+      "metadata": {
+        "id": "dd43KHOzD23D"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = 10\n",
+        "num2 = 20\n",
+        "\n",
+        "result = num1 + num2\n",
+        "\n",
+        "print(\"Answer:\", result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "BxGC9A7VEEB0",
+        "outputId": "a14b4305-fa5e-4b59-df2a-c30ded4526e2"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Answer: 30\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Task 3 — Subtraction"
+      ],
+      "metadata": {
+        "id": "GL0CUasdELqR"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = 50\n",
+        "num2 = 20\n",
+        "\n",
+        "result = num1 - num2\n",
+        "\n",
+        "print(\"Answer:\", result)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "258lIpwtEbCR",
+        "outputId": "64b19a24-a60f-48af-a5b0-3805fce5fd59"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Answer: 30\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Task 4 — Pass or Fail"
+      ],
+      "metadata": {
+        "id": "n4C0hC8EEcyq"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "marks = int(input(\"Enter your marks: \"))\n",
+        "\n",
+        "if marks >= 50:\n",
+        "    print(\"Pass\")\n",
+        "else:\n",
+        "    print(\"Fail\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ClaZ8j_1Emzk",
+        "outputId": "9f1691fd-288e-41bb-fff3-824d035fae6d"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your marks: 66\n",
+            "Pass\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "#Task 5 — Simple Total"
+      ],
+      "metadata": {
+        "id": "do6F41wVErQa"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "marks1 = int(input(\"Enter marks 1: \"))\n",
+        "marks2 = int(input(\"Enter marks 2: \"))\n",
+        "marks3 = int(input(\"Enter marks 3: \"))\n",
+        "\n",
+        "total = marks1 + marks2 + marks3\n",
+        "\n",
+        "print(\"Total:\", total)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "xEHmUrzgE06i",
+        "outputId": "603f3c74-2691-4d59-8147-c12e3fb96917"
+      },
+      "execution_count": 2,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter marks 1: 30\n",
+            "Enter marks 2: 20\n",
+            "Enter marks 3: 33\n",
+            "Total: 83\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
